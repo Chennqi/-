@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/workerManager.dir/职工管理系统.cpp.o  -o workerManager include/libTest.a 

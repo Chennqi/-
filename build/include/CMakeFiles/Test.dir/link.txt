@@ -1,0 +1,2 @@
+/usr/bin/ar qc libTest.a  CMakeFiles/Test.dir/worker.cpp.o CMakeFiles/Test.dir/workerManager.cpp.o
+/usr/bin/ranlib libTest.a

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chennqi/C++/基于多态的职工管理系统/include/worker.h
+iostream
+-
+string
+-
+
+/home/chennqi/C++/基于多态的职工管理系统/include/workerManager.h
+worker.h
+/home/chennqi/C++/基于多态的职工管理系统/include/worker.h
+fstream
+-
+
+/home/chennqi/C++/基于多态的职工管理系统/职工管理系统.cpp
+iostream
+-
+include/workerManager.h
+/home/chennqi/C++/基于多态的职工管理系统/include/workerManager.h
+include/worker.h
+/home/chennqi/C++/基于多态的职工管理系统/include/worker.h
+
